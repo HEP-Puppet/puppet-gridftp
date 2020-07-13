@@ -1,2 +1,16 @@
+2019-07-14 Petr Vokac <petr.vokac@cern.ch>
+    * LCGDM-2817 allow to configure epsv_match
+2019-02-25 Andrea Manzi  <andrea.manzi@cern.ch>
+    * fix sysconfig on c7
+2017-04-27 Andrea Manzi  <andrea.manzi@cern.ch>
+    * added epsv_ip parameter
+2017-02-15 Andrea Manzi  <andrea.manzi@cern.ch>
+    * Fixes bug for puppet4. globus_tcp_port_range now accessed as an instance variable in template.
+2016-08-23 Andrea Manzi  <andrea.manzi@cern.ch>
+    * added restart if certificate changes optional
+2016-07-08 Andrea Manzi  <andrea.manzi@cern.ch>
+    * added restart if certificate changes
+2016-01-18 Frederic Schaer  <frederic.schaer@cea.fr>
+    * Puppet 4 support
 2015-08-28 Andrea Manzi  <andrea.manzi@cern.ch>
     * added GLOBUS_GSSAPI_FORCE_TLS
